@@ -594,7 +594,7 @@ func TestVolumesFromGetsProperMode(t *testing.T) {
 		t.Fatal("Expected volumes-from to inherit read-only volume even when passing in `ro`")
 	}
 
-	logDone("run - volumes from ignores `rw` if inherrited volume is `ro`")
+	logDone("run - volumes from ignores `rw` if inherited volume is `ro`")
 }
 
 // Test for GH#10618
